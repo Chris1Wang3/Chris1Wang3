@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Chris Wang — 金融科技与 AI 产品经理</title>
+  <desc id="desc">深色终端风格横幅，包含动态产品工作流节点。</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#111c2d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="78%" cy="40%" r="55%">
+      <stop offset="0" stop-color="#8dd3a8" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#8dd3a8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8dd3a8" stroke-opacity=".055"/>
+    </pattern>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .label { font: 600 13px ui-monospace, "Microsoft YaHei", Consolas, monospace; letter-spacing: 2.2px; }
+      .name { font: 800 58px ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; letter-spacing: -2.5px; }
+      .role { font: 500 19px ui-monospace, "Microsoft YaHei", Consolas, monospace; letter-spacing: .6px; }
+      .node { font: 600 13px ui-monospace, "Microsoft YaHei", Consolas, monospace; }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .pulse.two { animation-delay: .7s; }
+      .pulse.three { animation-delay: 1.4s; }
+      .cursor { animation: blink 1s steps(2, jump-none) infinite; }
+      .flow { stroke-dasharray: 7 10; animation: dash 3s linear infinite; }
+      @keyframes pulse { 0%,100% { opacity:.55; transform:scale(.88) } 50% { opacity:1; transform:scale(1.12) } }
+      @keyframes blink { 50% { opacity:0 } }
+      @keyframes dash { to { stroke-dashoffset:-34 } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="280" rx="18" fill="url(#panel)"/>
+  <rect width="1200" height="280" rx="18" fill="url(#grid)"/>
+  <rect width="1200" height="280" rx="18" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="278" rx="17" fill="none" stroke="#8dd3a8" stroke-opacity=".24"/>
+
+  <circle cx="28" cy="24" r="4" fill="#8dd3a8"/>
+  <circle cx="44" cy="24" r="4" fill="#8dd3a8" opacity=".45"/>
+  <circle cx="60" cy="24" r="4" fill="#8dd3a8" opacity=".2"/>
+  <text x="84" y="29" class="label" fill="#8dd3a8" opacity=".8">PROFILE / 2026</text>
+
+  <text x="58" y="112" class="name" fill="#f3f7f5">CHRIS WANG</text>
+  <text x="60" y="151" class="role" fill="#8dd3a8">FINTECH / AI 产品经理<tspan class="cursor">_</tspan></text>
+  <text x="60" y="195" class="role" fill="#a9b7c6" font-size="15">把模糊问题变成可验证的产品</text>
+  <line x1="60" y1="219" x2="535" y2="219" stroke="#8dd3a8" stroke-opacity=".4"/>
+  <text x="60" y="245" class="label" fill="#7f90a3">策略 · AGENT 工作流 · 快速原型</text>
+
+  <path class="flow" d="M704 94H798M868 94H962M1032 94V174H938M868 174H774" fill="none" stroke="#8dd3a8" stroke-width="2" stroke-opacity=".5"/>
+
+  <g transform="translate(642 66)">
+    <rect width="126" height="56" rx="10" fill="#101b2a" stroke="#8dd3a8" stroke-opacity=".45"/>
+    <circle class="pulse" cx="17" cy="17" r="5" fill="#8dd3a8" filter="url(#softGlow)"/>
+    <text x="18" y="38" class="node" fill="#dce8e2">发现</text>
+  </g>
+  <g transform="translate(800 66)">
+    <rect width="126" height="56" rx="10" fill="#101b2a" stroke="#8dd3a8" stroke-opacity=".45"/>
+    <circle class="pulse two" cx="17" cy="17" r="5" fill="#8dd3a8" filter="url(#softGlow)"/>
+    <text x="18" y="38" class="node" fill="#dce8e2">原型</text>
+  </g>
+  <g transform="translate(958 66)">
+    <rect width="126" height="56" rx="10" fill="#101b2a" stroke="#8dd3a8" stroke-opacity=".45"/>
+    <circle class="pulse three" cx="17" cy="17" r="5" fill="#8dd3a8" filter="url(#softGlow)"/>
+    <text x="18" y="38" class="node" fill="#dce8e2">验证</text>
+  </g>
+  <g transform="translate(800 146)">
+    <rect width="126" height="56" rx="10" fill="#13261f" stroke="#8dd3a8" stroke-opacity=".8"/>
+    <circle class="pulse two" cx="17" cy="17" r="5" fill="#8dd3a8" filter="url(#softGlow)"/>
+    <text x="18" y="38" class="node" fill="#f0fff6">交付</text>
+  </g>
+  <text x="642" y="244" class="label" fill="#7f90a3">让证据进入决策</text>
+</svg>

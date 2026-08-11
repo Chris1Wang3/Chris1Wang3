@@ -1,17 +1,21 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Chris Wang — Fintech and AI Product Manager" />
+**中文** · [English](https://github.com/Chris1Wang3/Chris1Wang3/blob/main/README.en.md)
 
 <br />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2600&pause=850&color=8DD3A8&center=true&vCenter=true&width=780&lines=Building+AI+products+that+turn+insight+into+action;Product+strategy+%C2%B7+Agent+workflows+%C2%B7+Rapid+prototyping;Make+the+problem+clear.+Make+the+solution+testable." alt="What Chris builds" />
+<img src="./assets/hero-zh.svg" width="100%" alt="Chris Wang — 金融科技与 AI 产品经理" />
 
 <br />
 
-<a href="#selected-work"><img src="https://img.shields.io/badge/01-SELECTED%20WORK-0b1220?style=for-the-badge&labelColor=13261f&color=0b1220" alt="Selected work" /></a>
-<a href="#how-i-build"><img src="https://img.shields.io/badge/02-HOW%20I%20BUILD-0b1220?style=for-the-badge&labelColor=13261f&color=0b1220" alt="How I build" /></a>
-<a href="#toolkit"><img src="https://img.shields.io/badge/03-TOOLKIT-0b1220?style=for-the-badge&labelColor=13261f&color=0b1220" alt="Toolkit" /></a>
-<a href="#github-activity"><img src="https://img.shields.io/badge/04-ACTIVITY-0b1220?style=for-the-badge&labelColor=13261f&color=0b1220" alt="GitHub activity" /></a>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2600&pause=850&color=8DD3A8&center=true&vCenter=true&width=780&lines=%E6%8A%8A%E6%B4%9E%E5%AF%9F%E5%8F%98%E6%88%90%E8%A1%8C%E5%8A%A8%EF%BC%8C%E6%8A%8A%E6%83%B3%E6%B3%95%E5%8F%98%E6%88%90%E5%8F%AF%E9%AA%8C%E8%AF%81%E7%9A%84%E4%BA%A7%E5%93%81;%E4%BA%A7%E5%93%81%E7%AD%96%E7%95%A5%20%C2%B7%20Agent%20%E5%B7%A5%E4%BD%9C%E6%B5%81%20%C2%B7%20%E5%BF%AB%E9%80%9F%E5%8E%9F%E5%9E%8B;%E6%8A%8A%E9%97%AE%E9%A2%98%E8%AF%B4%E6%B8%85%E6%A5%9A%EF%BC%8C%E6%8A%8A%E6%96%B9%E6%A1%88%E5%81%9A%E5%87%BA%E6%9D%A5" alt="Chris 的产品工作方式" />
+
+<br />
+
+<a href="#selected-work"><img src="https://img.shields.io/badge/01-%E4%BB%A3%E8%A1%A8%E4%BD%9C%E5%93%81-0b1220?style=for-the-badge&labelColor=13261f&color=0b1220" alt="代表作品" /></a>
+<a href="#how-i-build"><img src="https://img.shields.io/badge/02-%E5%B7%A5%E4%BD%9C%E6%96%B9%E5%BC%8F-0b1220?style=for-the-badge&labelColor=13261f&color=0b1220" alt="工作方式" /></a>
+<a href="#toolkit"><img src="https://img.shields.io/badge/03-%E5%B7%A5%E5%85%B7%E7%AE%B1-0b1220?style=for-the-badge&labelColor=13261f&color=0b1220" alt="工具箱" /></a>
+<a href="#github-activity"><img src="https://img.shields.io/badge/04-GITHUB%20%E5%8A%A8%E6%80%81-0b1220?style=for-the-badge&labelColor=13261f&color=0b1220" alt="GitHub 动态" /></a>
 
 </div>
 
@@ -21,30 +25,30 @@
 <tr>
 <td width="60%" valign="top">
 
-### About
+### 关于我
 
-I am a **Fintech / AI Product Manager** who turns ambiguous business problems into products people can see, test, and improve.
+我是一名 **金融科技 / AI 产品经理**，擅长把模糊的业务问题拆成看得见、能演示、可验证、可迭代的产品。
 
-My work sits between product strategy and hands-on delivery: research, product framing, Agent workflows, rapid prototypes, and evidence-backed decision tools.
+我的工作横跨产品策略与动手交付：用户与竞品研究、问题定义、Agent 工作流、快速原型，以及有证据支撑的决策工具。
 
-> 我关注的不只是「AI 能做什么」，而是如何把真实业务问题拆清楚、把判断过程产品化，并交付可验证的结果。
+> 我关注的不只是「AI 能做什么」，而是如何把真实业务问题说清楚、把专业判断产品化，并交付可验证、可复用的结果。
 
 </td>
 <td width="40%" valign="top">
 
-### At a glance
+### 快速了解
 
-**Focus**<br />
-AI-native product workflows
+**关注方向**<br />
+AI 原生产品工作流
 
-**Current themes**<br />
-Product judgment · VoC · Agent Skills
+**当前主题**<br />
+产品判断 · 用户声音 · Agent Skills
 
-**Bias**<br />
-Evidence before opinion
+**判断原则**<br />
+证据先于观点
 
-**Output**<br />
-Demos · workflows · decision assets
+**常见交付**<br />
+Demo · 工作流 · 决策资产
 
 </td>
 </tr>
@@ -54,30 +58,30 @@ Demos · workflows · decision assets
 
 <a id="selected-work"></a>
 
-## 01 / Selected work
+## 01 / 代表作品
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🪑 [HammerRoom Skills](https://github.com/Chris1Wang3/HammerRoom-Skills)
+### 🪑 [拍砖间 · HammerRoom Skills](https://github.com/Chris1Wang3/HammerRoom-Skills)
 
-Reusable Agent Skills for the uncomfortable questions that make product decisions stronger.
+把产品决策中那些不好回答、但必须回答的问题，封装成可复用的 Agent Skills。
 
-`Idea stress test` · `Competitive research` · `PRD review` · `Requirement framing` · `Skill QA`
+`想法压测` · `竞品调研` · `PRD 评审` · `模糊需求拆解` · `Skill 质量审计`
 
-<a href="https://github.com/Chris1Wang3/HammerRoom-Skills"><img src="https://img.shields.io/badge/EXPLORE_THE_SKILLS-13261f?style=for-the-badge&logo=github&logoColor=8dd3a8" alt="Explore HammerRoom Skills" /></a>
+<a href="https://github.com/Chris1Wang3/HammerRoom-Skills"><img src="https://img.shields.io/badge/%E6%9F%A5%E7%9C%8B_SKILLS-13261f?style=for-the-badge&logo=github&logoColor=8dd3a8" alt="查看 HammerRoom Skills" /></a>
 
 </td>
 <td width="50%" valign="top">
 
-### 📡 [VoC Radar](https://github.com/Chris1Wang3/lark-workflow-voc-radar)
+### 📡 [用户声音雷达 · VoC Radar](https://github.com/Chris1Wang3/lark-workflow-voc-radar)
 
-An evidence-first Agent workflow that turns scattered Feishu/Lark feedback into a prioritized, reviewable product backlog.
+把散落在飞书中的用户反馈，转成有证据、可分级、可复核的产品需求池。
 
-`Multi-source intake` · `Evidence links` · `P0–P3 triage` · `Human approval gates`
+`多源采集` · `证据引用` · `P0–P3 分级` · `人工确认门`
 
-<a href="https://github.com/Chris1Wang3/lark-workflow-voc-radar"><img src="https://img.shields.io/badge/VIEW_THE_WORKFLOW-13261f?style=for-the-badge&logo=github&logoColor=8dd3a8" alt="View VoC Radar" /></a>
+<a href="https://github.com/Chris1Wang3/lark-workflow-voc-radar"><img src="https://img.shields.io/badge/%E6%9F%A5%E7%9C%8B_%E5%B7%A5%E4%BD%9C%E6%B5%81-13261f?style=for-the-badge&logo=github&logoColor=8dd3a8" alt="查看用户声音雷达" /></a>
 
 </td>
 </tr>
@@ -87,37 +91,37 @@ An evidence-first Agent workflow that turns scattered Feishu/Lark feedback into 
 
 <a id="how-i-build"></a>
 
-## 02 / How I build
+## 02 / 我的工作方式
 
-| Stage | What I do | The artifact |
+| 阶段 | 我会做什么 | 形成的产物 |
 |:--|:--|:--|
-| **Discover** | Find the real user and business tension behind the request | Evidence map · problem statement |
-| **Frame** | Make goals, constraints, risks, and success measures explicit | Product brief · decision record |
-| **Prototype** | Build the smallest experience that makes the idea discussable | Runnable demo · workflow |
-| **Validate** | Pressure-test with users, data, and cross-functional objections | Findings · prioritized fixes |
-| **Ship** | Package the result so the next person can reuse and operate it | Skill · playbook · release assets |
+| **发现** | 找到需求背后真正的用户问题与业务矛盾 | 证据地图 · 问题定义 |
+| **定义** | 明确目标、约束、风险与成功指标 | 产品简报 · 决策记录 |
+| **原型** | 做出最小但完整、可以讨论的体验 | 可运行 Demo · 工作流 |
+| **验证** | 用用户、数据和跨职能质疑检验方案 | 研究结论 · 修复清单 |
+| **交付** | 把结果包装成别人可以继续使用和运营的资产 | Skill · Playbook · 发布材料 |
 
 ```text
-good product work = clear problem × testable experience × reusable learning
+好的产品工作 = 清楚的问题 × 可验证的体验 × 可复用的认知
 ```
 
 ---
 
 <a id="toolkit"></a>
 
-## 03 / Toolkit
+## 03 / 工具箱
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Product_Strategy-0b1220?style=for-the-badge&logoColor=8dd3a8" alt="Product strategy" />
-<img src="https://img.shields.io/badge/AI_Agents-0b1220?style=for-the-badge&logo=openai&logoColor=8dd3a8" alt="AI agents" />
-<img src="https://img.shields.io/badge/User_Research-0b1220?style=for-the-badge&logoColor=8dd3a8" alt="User research" />
-<img src="https://img.shields.io/badge/Rapid_Prototyping-0b1220?style=for-the-badge&logoColor=8dd3a8" alt="Rapid prototyping" />
-<img src="https://img.shields.io/badge/Agent_Skills-0b1220?style=for-the-badge&logo=githubcopilot&logoColor=8dd3a8" alt="Agent Skills" />
+<img src="https://img.shields.io/badge/%E4%BA%A7%E5%93%81%E7%AD%96%E7%95%A5-0b1220?style=for-the-badge&logoColor=8dd3a8" alt="产品策略" />
+<img src="https://img.shields.io/badge/AI_AGENTS-0b1220?style=for-the-badge&logo=openai&logoColor=8dd3a8" alt="AI Agents" />
+<img src="https://img.shields.io/badge/%E7%94%A8%E6%88%B7%E7%A0%94%E7%A9%B6-0b1220?style=for-the-badge&logoColor=8dd3a8" alt="用户研究" />
+<img src="https://img.shields.io/badge/%E5%BF%AB%E9%80%9F%E5%8E%9F%E5%9E%8B-0b1220?style=for-the-badge&logoColor=8dd3a8" alt="快速原型" />
+<img src="https://img.shields.io/badge/AGENT_SKILLS-0b1220?style=for-the-badge&logo=githubcopilot&logoColor=8dd3a8" alt="Agent Skills" />
 
 <br />
 
-<img src="https://skillicons.dev/icons?i=html,js,python,powershell,bash,git,github&theme=dark&perline=7" alt="HTML, JavaScript, Python, PowerShell, Bash, Git, and GitHub" />
+<img src="https://skillicons.dev/icons?i=html,js,python,powershell,bash,git,github&theme=dark&perline=7" alt="HTML、JavaScript、Python、PowerShell、Bash、Git 和 GitHub" />
 
 </div>
 
@@ -125,27 +129,23 @@ good product work = clear problem × testable experience × reusable learning
 
 <a id="github-activity"></a>
 
-## 04 / GitHub activity
+## 04 / GitHub 动态
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Chris1Wang3&show_icons=true&hide_border=true&bg_color=0b1220&title_color=8dd3a8&icon_color=8dd3a8&text_color=cbd5e1&ring_color=8dd3a8" alt="Chris Wang's GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chris1Wang3&layout=compact&langs_count=6&hide_border=true&bg_color=0b1220&title_color=8dd3a8&text_color=cbd5e1" alt="Most used languages" />
+<img width="49%" src="https://raw.githubusercontent.com/Chris1Wang3/Chris1Wang3/output/stats-zh.svg" alt="Chris Wang 的 GitHub 公开数据" />
+<img width="49%" src="https://raw.githubusercontent.com/Chris1Wang3/Chris1Wang3/output/languages-zh.svg" alt="公开项目语言分布" />
 
 <br />
 
-<img src="https://streak-stats.demolab.com?user=Chris1Wang3&hide_border=true&background=0B1220&stroke=253249&ring=8DD3A8&fire=8DD3A8&currStreakLabel=8DD3A8&sideLabels=CBD5E1&dates=7F90A3&sideNums=CBD5E1&currStreakNum=F3F7F5" alt="GitHub contribution streak" />
-
-<br />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Chris1Wang3&bg_color=0b1220&color=cbd5e1&line=8dd3a8&point=f3f7f5&area=true&area_color=8dd3a8&hide_border=true&custom_title=Contribution%20signal" width="100%" alt="GitHub contribution activity graph" />
+<img src="https://streak-stats.demolab.com?user=Chris1Wang3&hide_border=true&background=0B1220&stroke=253249&ring=8DD3A8&fire=8DD3A8&currStreakLabel=8DD3A8&sideLabels=CBD5E1&dates=7F90A3&sideNums=CBD5E1&currStreakNum=F3F7F5" alt="GitHub 连续贡献记录" />
 
 <br />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Chris1Wang3/Chris1Wang3/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Chris1Wang3/Chris1Wang3/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/Chris1Wang3/Chris1Wang3/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake animation" />
+  <img src="https://raw.githubusercontent.com/Chris1Wang3/Chris1Wang3/output/github-contribution-grid-snake-dark.svg" width="100%" alt="贡献图贪吃蛇动画" />
 </picture>
 
 </div>
@@ -154,12 +154,12 @@ good product work = clear problem × testable experience × reusable learning
 
 <div align="center">
 
-### Make the problem clear. Make the solution testable.
+### 把问题说清楚，把方案做出来。
 
-[Explore my work](https://github.com/Chris1Wang3?tab=repositories) · [HammerRoom Skills](https://github.com/Chris1Wang3/HammerRoom-Skills) · [VoC Radar](https://github.com/Chris1Wang3/lark-workflow-voc-radar)
+[查看全部项目](https://github.com/Chris1Wang3?tab=repositories) · [拍砖间 Skills](https://github.com/Chris1Wang3/HammerRoom-Skills) · [用户声音雷达](https://github.com/Chris1Wang3/lark-workflow-voc-radar)
 
 <br />
 
-<img src="https://komarev.com/ghpvc/?username=Chris1Wang3&label=PROFILE%20VIEWS&color=8dd3a8&style=flat-square" alt="Profile views" />
+<img src="https://komarev.com/ghpvc/?username=Chris1Wang3&label=PROFILE%20VIEWS&color=8dd3a8&style=flat-square" alt="主页访问量" />
 
 </div>
