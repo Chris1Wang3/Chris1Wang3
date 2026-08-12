@@ -71,7 +71,6 @@ Reusable Agent Skills for the uncomfortable questions that make product decision
 `Idea stress test` · `Competitive research` · `PRD review` · `Requirement framing` · `Skill QA`
 
 <a href="https://github.com/Chris1Wang3/Idea-on-Trial"><img src="https://img.shields.io/badge/EXPLORE_THE_SKILLS-13261f?style=for-the-badge&logo=github&logoColor=8dd3a8" alt="Explore Idea on Trial Skills" /></a>
-<a href="https://www.skillhub.cn/dashboard"><img src="https://img.shields.io/badge/SkillHub-SKILL_LINKS-7c3aed?style=for-the-badge" alt="View skills on SkillHub" /></a>
 
 </td>
 <td width="50%" valign="top">

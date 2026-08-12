@@ -71,7 +71,6 @@ Demo · 工作流 · 决策资产
 `想法压测` · `竞品调研` · `PRD 评审` · `模糊需求拆解` · `Skill 质量审计`
 
 <a href="https://github.com/Chris1Wang3/Idea-on-Trial"><img src="https://img.shields.io/badge/%E6%9F%A5%E7%9C%8B_SKILLS-13261f?style=for-the-badge&logo=github&logoColor=8dd3a8" alt="查看创意受审 Skills" /></a>
-<a href="https://www.skillhub.cn/dashboard"><img src="https://img.shields.io/badge/SkillHub-%E6%8A%80%E8%83%BD%E5%9C%B0%E5%9D%80-7c3aed?style=for-the-badge" alt="在 SkillHub 查看技能" /></a>
 
 </td>
 <td width="50%" valign="top">
