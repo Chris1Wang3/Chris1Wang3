@@ -64,13 +64,14 @@ Demos · workflows · decision assets
 <tr>
 <td width="50%" valign="top">
 
-### 🪑 [HammerRoom Skills](https://github.com/Chris1Wang3/HammerRoom-Skills)
+### ⚖️ [Idea on Trial](https://github.com/Chris1Wang3/Idea-on-Trial)
 
 Reusable Agent Skills for the uncomfortable questions that make product decisions stronger.
 
 `Idea stress test` · `Competitive research` · `PRD review` · `Requirement framing` · `Skill QA`
 
-<a href="https://github.com/Chris1Wang3/HammerRoom-Skills"><img src="https://img.shields.io/badge/EXPLORE_THE_SKILLS-13261f?style=for-the-badge&logo=github&logoColor=8dd3a8" alt="Explore HammerRoom Skills" /></a>
+<a href="https://github.com/Chris1Wang3/Idea-on-Trial"><img src="https://img.shields.io/badge/EXPLORE_THE_SKILLS-13261f?style=for-the-badge&logo=github&logoColor=8dd3a8" alt="Explore Idea on Trial Skills" /></a>
+<a href="https://www.skillhub.cn/dashboard"><img src="https://img.shields.io/badge/SkillHub-SKILL_LINKS-7c3aed?style=for-the-badge" alt="View skills on SkillHub" /></a>
 
 </td>
 <td width="50%" valign="top">
@@ -156,7 +157,7 @@ good product work = clear problem × testable experience × reusable learning
 
 ### Make the problem clear. Make the solution testable.
 
-[Explore my work](https://github.com/Chris1Wang3?tab=repositories) · [HammerRoom Skills](https://github.com/Chris1Wang3/HammerRoom-Skills) · [VoC Radar](https://github.com/Chris1Wang3/lark-workflow-voc-radar)
+[Explore my work](https://github.com/Chris1Wang3?tab=repositories) · [Idea on Trial Skills](https://github.com/Chris1Wang3/Idea-on-Trial) · [SkillHub](https://www.skillhub.cn/dashboard) · [VoC Radar](https://github.com/Chris1Wang3/lark-workflow-voc-radar)
 
 <br />
 
