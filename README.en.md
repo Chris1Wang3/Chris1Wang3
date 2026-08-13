@@ -138,7 +138,7 @@ good product work = clear problem × testable experience × reusable learning
 
 <br />
 
-<img src="https://streak-stats.demolab.com?user=Chris1Wang3&hide_border=true&background=0B1220&stroke=253249&ring=8DD3A8&fire=8DD3A8&currStreakLabel=8DD3A8&sideLabels=CBD5E1&dates=7F90A3&sideNums=CBD5E1&currStreakNum=F3F7F5" alt="GitHub contribution streak" />
+<img src="https://raw.githubusercontent.com/Chris1Wang3/Chris1Wang3/output/streak-en.svg" alt="GitHub contribution streak" />
 
 <br />
 
@@ -160,6 +160,6 @@ good product work = clear problem × testable experience × reusable learning
 
 <br />
 
-<img src="https://komarev.com/ghpvc/?username=Chris1Wang3&label=PROFILE%20VIEWS&color=8dd3a8&style=flat-square" alt="Profile views" />
+<sub>Turning real problems into reusable, verifiable outcomes.</sub>
 
 </div>

@@ -138,7 +138,7 @@ Demo · 工作流 · 决策资产
 
 <br />
 
-<img src="https://streak-stats.demolab.com?user=Chris1Wang3&hide_border=true&background=0B1220&stroke=253249&ring=8DD3A8&fire=8DD3A8&currStreakLabel=8DD3A8&sideLabels=CBD5E1&dates=7F90A3&sideNums=CBD5E1&currStreakNum=F3F7F5" alt="GitHub 连续贡献记录" />
+<img src="https://raw.githubusercontent.com/Chris1Wang3/Chris1Wang3/output/streak-zh.svg" alt="GitHub 连续贡献记录" />
 
 <br />
 
@@ -160,6 +160,6 @@ Demo · 工作流 · 决策资产
 
 <br />
 
-<img src="https://komarev.com/ghpvc/?username=Chris1Wang3&label=PROFILE%20VIEWS&color=8dd3a8&style=flat-square" alt="主页访问量" />
+<sub>持续把真实问题，做成可复用、可验证的成果。</sub>
 
 </div>

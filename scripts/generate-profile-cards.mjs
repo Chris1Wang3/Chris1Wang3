@@ -69,7 +69,7 @@ async function fetchAllRepos() {
   return repos;
 }
 
-async function fetchContributionCount() {
+async function fetchContributionCalendar() {
   const data = await requestJson("https://api.github.com/graphql", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -77,7 +77,10 @@ async function fetchContributionCount() {
       query: `query($login: String!) {
         user(login: $login) {
           contributionsCollection {
-            contributionCalendar { totalContributions }
+            contributionCalendar {
+              totalContributions
+              weeks { contributionDays { date contributionCount } }
+            }
           }
         }
       }`,
@@ -89,7 +92,7 @@ async function fetchContributionCount() {
     throw new Error(data.errors.map((error) => error.message).join("; "));
   }
 
-  return data.data.user.contributionsCollection.contributionCalendar.totalContributions;
+  return data.data.user.contributionsCollection.contributionCalendar;
 }
 
 async function fetchLanguages(repos) {
@@ -212,10 +215,57 @@ function renderLanguages(languages, locale) {
   return cardShell(copy.title, content, copy.description);
 }
 
-const [user, repos, contributions] = await Promise.all([
+function calculateStreaks(calendar) {
+  const days = calendar.weeks.flatMap((week) => week.contributionDays);
+  let current = 0;
+  let longest = 0;
+  let running = 0;
+
+  for (const day of days) {
+    if (day.contributionCount > 0) {
+      running += 1;
+      longest = Math.max(longest, running);
+    } else {
+      running = 0;
+    }
+  }
+
+  for (let index = days.length - 1; index >= 0; index -= 1) {
+    if (days[index].contributionCount > 0) current += 1;
+    else break;
+  }
+
+  return { current, longest, total: calendar.totalContributions };
+}
+
+function renderStreak(streaks, locale) {
+  const copy = locale === "zh"
+    ? {
+        title: "GitHub 贡献记录",
+        description: `${owner} 近一年的 GitHub 贡献与连续贡献数据。`,
+        labels: ["当前连续", "最长连续", "近一年贡献"],
+        suffix: "天",
+      }
+    : {
+        title: "GitHub contribution streak",
+        description: `GitHub contribution and streak data for ${owner} over the past year.`,
+        labels: ["Current streak", "Longest streak", "Yearly contributions"],
+        suffix: " days",
+      };
+  const values = [`${streaks.current}${copy.suffix}`, `${streaks.longest}${copy.suffix}`, String(streaks.total)];
+  const positions = [31, 186, 341];
+  const content = positions.map((x, index) => `<g>
+    <text x="${x}" y="77" class="label" fill="#8b9bae">${escapeXml(copy.labels[index])}</text>
+    <text x="${x}" y="113" class="value" fill="#8dd3a8">${escapeXml(values[index])}</text>
+  </g>`).join("\n  ");
+
+  return cardShell(copy.title, content, copy.description);
+}
+
+const [user, repos, calendar] = await Promise.all([
   requestJson(`https://api.github.com/users/${owner}`),
   fetchAllRepos(),
-  fetchContributionCount(),
+  fetchContributionCalendar(),
 ]);
 
 const languages = await fetchLanguages(repos);
@@ -223,7 +273,7 @@ const stats = {
   publicRepos: user.public_repos,
   stars: repos.reduce((sum, repo) => sum + repo.stargazers_count, 0),
   followers: user.followers,
-  contributions,
+  contributions: calendar.totalContributions,
 };
 
 await mkdir(outputDir, { recursive: true });
@@ -232,6 +282,8 @@ await Promise.all([
   writeFile(path.join(outputDir, "stats-en.svg"), renderStats(stats, "en"), "utf8"),
   writeFile(path.join(outputDir, "languages-zh.svg"), renderLanguages(languages, "zh"), "utf8"),
   writeFile(path.join(outputDir, "languages-en.svg"), renderLanguages(languages, "en"), "utf8"),
+  writeFile(path.join(outputDir, "streak-zh.svg"), renderStreak(calculateStreaks(calendar), "zh"), "utf8"),
+  writeFile(path.join(outputDir, "streak-en.svg"), renderStreak(calculateStreaks(calendar), "en"), "utf8"),
 ]);
 
 console.log(`Generated profile cards for ${owner} in ${outputDir}`);
