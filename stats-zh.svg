@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub 公开数据</title>
+  <desc id="desc">Chris1Wang3 的公开仓库、获赞、关注者和近一年贡献数据。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#111c2d"/>
+    </linearGradient>
+    <style>
+      .title { font: 600 16px "Segoe UI", "Microsoft YaHei", sans-serif; }
+      .label { font: 500 12px "Segoe UI", "Microsoft YaHei", sans-serif; }
+      .value { font: 700 24px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .mono { font: 600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="493" height="193" rx="12" fill="url(#bg)" stroke="#253249"/>
+  <rect x="18" y="20" width="3" height="18" rx="1.5" fill="#8dd3a8"/>
+  <text x="31" y="35" class="title" fill="#f3f7f5">GitHub 公开数据</text>
+  <g>
+    <text x="31" y="63" class="label" fill="#8b9bae">公开仓库</text>
+    <text x="31" y="92" class="value" fill="#8dd3a8">3</text>
+  </g>
+  <g>
+    <text x="267" y="63" class="label" fill="#8b9bae">项目获赞</text>
+    <text x="267" y="92" class="value" fill="#8dd3a8">10</text>
+  </g>
+  <g>
+    <text x="31" y="127" class="label" fill="#8b9bae">关注者</text>
+    <text x="31" y="156" class="value" fill="#8dd3a8">8</text>
+  </g>
+  <g>
+    <text x="267" y="127" class="label" fill="#8b9bae">近一年贡献</text>
+    <text x="267" y="156" class="value" fill="#8dd3a8">172</text>
+  </g>
+</svg>
