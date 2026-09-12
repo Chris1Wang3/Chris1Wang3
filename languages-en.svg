@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-labelledby="title desc">
+  <title id="title">Languages in public projects</title>
+  <desc id="desc">Language distribution by code bytes across Chris1Wang3&apos;s public projects.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#111c2d"/>
+    </linearGradient>
+    <style>
+      .title { font: 600 16px "Segoe UI", "Microsoft YaHei", sans-serif; }
+      .label { font: 500 12px "Segoe UI", "Microsoft YaHei", sans-serif; }
+      .value { font: 700 24px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .mono { font: 600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="493" height="193" rx="12" fill="url(#bg)" stroke="#253249"/>
+  <rect x="18" y="20" width="3" height="18" rx="1.5" fill="#8dd3a8"/>
+  <text x="31" y="35" class="title" fill="#f3f7f5">Languages in public projects</text>
+  <g>
+    <text x="31" y="63" class="label" fill="#cbd5e1">HTML</text>
+    <text x="463" y="63" text-anchor="end" class="mono" fill="#8b9bae">64.5%</text>
+    <rect x="154" y="54" width="248" height="7" rx="3.5" fill="#1d2a3c"/>
+    <rect x="154" y="54" width="160" height="7" rx="3.5" fill="#8dd3a8"/>
+  </g>
+  <g>
+    <text x="31" y="90" class="label" fill="#cbd5e1">JavaScript</text>
+    <text x="463" y="90" text-anchor="end" class="mono" fill="#8b9bae">24.4%</text>
+    <rect x="154" y="81" width="248" height="7" rx="3.5" fill="#1d2a3c"/>
+    <rect x="154" y="81" width="61" height="7" rx="3.5" fill="#74b98f"/>
+  </g>
+  <g>
+    <text x="31" y="117" class="label" fill="#cbd5e1">Python</text>
+    <text x="463" y="117" text-anchor="end" class="mono" fill="#8b9bae">8.9%</text>
+    <rect x="154" y="108" width="248" height="7" rx="3.5" fill="#1d2a3c"/>
+    <rect x="154" y="108" width="22" height="7" rx="3.5" fill="#5c9f77"/>
+  </g>
+  <g>
+    <text x="31" y="144" class="label" fill="#cbd5e1">PowerShell</text>
+    <text x="463" y="144" text-anchor="end" class="mono" fill="#8b9bae">1.7%</text>
+    <rect x="154" y="135" width="248" height="7" rx="3.5" fill="#1d2a3c"/>
+    <rect x="154" y="135" width="4" height="7" rx="3.5" fill="#477f61"/>
+  </g>
+  <g>
+    <text x="31" y="171" class="label" fill="#cbd5e1">Shell</text>
+    <text x="463" y="171" text-anchor="end" class="mono" fill="#8b9bae">0.4%</text>
+    <rect x="154" y="162" width="248" height="7" rx="3.5" fill="#1d2a3c"/>
+    <rect x="154" y="162" width="3" height="7" rx="3.5" fill="#35614a"/>
+  </g>
+</svg>
